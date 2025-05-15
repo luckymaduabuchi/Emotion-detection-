@@ -4,7 +4,7 @@
 This project performs **emotion classification from speech** using two lightweight transformer-based models:
 
 - **DistilHuBERT** (self-supervised on raw waveform)
-- **PaSST** (spectrogram transformer with patchout)
+- **PaSST** (patchout spectrogram transformer)
 
 ---
 
@@ -22,6 +22,7 @@ We use the **CREMA-D** dataset, which contains 7,442 audio clips labeled with th
 ---
 
 ## 🛠 INSTALLATION
+Goto the experiment folder
 
 Install required dependencies:
 
