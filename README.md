@@ -22,7 +22,7 @@ We use the **CREMA-D** dataset, which contains 7,442 audio clips labeled with th
 ---
 
 ## 🛠 INSTALLATION
-Goto the experiment folder
+Go to the experiment folder
 
 Install required dependencies:
 
