@@ -1,12 +1,29 @@
-# Emotion Detection in Speech Using Lightweight and Transformer-Based Models: A Comparative and Ablation Study
-#OBJECTIVE
-#Emotion classification from speech is implemented using two lightweight transformer based model - DistilHuBERT and PaSST.
-#DATASET AND EMOTIONS
-#CREMA-D dataset is used in this project. The aim is to detect six basic emotional states - Happy, Sad, Angry, Fear, Disgust, Neutral.
+# 🎙️ Emotion Detection in Speech Using Lightweight and Transformer-Based Models: A Comparative and Ablation Study
 
-## 📦 INSTALLATION
+## 🎯 OBJECTIVE
+This project performs **emotion classification from speech** using two lightweight transformer-based models:
 
-Install the required dependencies:
+- **DistilHuBERT** (self-supervised on raw waveform)
+- **PaSST** (spectrogram transformer with patchout)
+
+---
+
+## 😄 EMOTIONS & DATASET
+
+We use the **CREMA-D** dataset, which contains 7,442 audio clips labeled with the following six emotions:
+
+- Happy  
+- Sad  
+- Angry  
+- Fear  
+- Disgust  
+- Neutral
+
+---
+
+## 🛠 INSTALLATION
+
+Install required dependencies:
 
 ```bash
-pip install torch torchaudio s3prl matplotlib seaborn scikit-learn numpy
+pip install torch torchaudio s3prl hear21passt matplotlib seaborn scikit-learn numpy soundfile tqdm
