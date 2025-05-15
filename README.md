@@ -4,3 +4,9 @@
 #DATASET AND EMOTIONS
 #CREMA-D dataset is used in this project. The aim is to detect six basic emotional states - Happy, Sad, Angry, Fear, Disgust, Neutral.
 
+## 📦 INSTALLATION
+
+Install the required dependencies:
+
+```bash
+pip install torch torchaudio s3prl matplotlib seaborn scikit-learn numpy
